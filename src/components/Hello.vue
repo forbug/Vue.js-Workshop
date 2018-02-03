@@ -1,6 +1,7 @@
 <template>
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12 text-center">
+
       <img src="@/assets/logo.png">
 
       <h1>{{ msg }}</h1>
@@ -14,7 +15,10 @@
   </div>
 </template>
 
+<!-- // // // // -->
+
 <script>
+
 export default {
   name: 'Hello',
   data () {
@@ -23,7 +27,10 @@ export default {
     }
   }
 }
+
 </script>
+
+<!-- // // // // -->
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

@@ -1,8 +1,6 @@
 # Vue.js-Workshop
 A gentle introduction to Vue.js
 
-> A Vue.js project
-
 ## Build Setup
 
 ``` bash
