@@ -1,9 +1,8 @@
 <template>
   <div class="row">
     <div class="col-lg-12">
-      <img src="@/assets/logo.png">
 
-      <h1>{{ msg }}</h1>
+      <h1>Welcome to the RCOS Vue.js Workshop</h1>
 
       <p class="subtitle">
         Built with Vue.js, Bootstrap, and FontAwesome
@@ -16,12 +15,7 @@
 
 <script>
 export default {
-  name: 'Hello',
-  data () {
-    return {
-      msg: 'Welcome to the RCOS Vue.js Workshop'
-    }
-  }
+  name: 'Hello'
 }
 </script>
 
