@@ -1,7 +1,21 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
+
+    <nav class="navbar bg-dark text-light">
+      <a class="navbar-brand">Vue.js Workshop</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://rcos.io">RCOS</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="app" class="container">
+      <router-view/>
+    </div>
+
   </div>
+
 </template>
 
 <script>
@@ -9,14 +23,3 @@ export default {
   name: 'App'
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
