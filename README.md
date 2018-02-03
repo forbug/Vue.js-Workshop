@@ -1,4 +1,5 @@
-# vue_workshop
+# Vue.js-Workshop
+A gentle introduction to Vue.js
 
 > A Vue.js project
 
