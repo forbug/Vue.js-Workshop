@@ -10,9 +10,33 @@
       </ul>
     </nav>
 
-    <div id="app" class="container">
+    <div id="app" class="container pt-4">
       <router-view/>
     </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="lead">
+
+              Built with
+              <a href="https://fontawesome.bootstrapcheatsheets.com/" target="_blank">
+                Vue.js
+              </a>,
+              <a href="https://fontawesome.bootstrapcheatsheets.com/" target="_blank">
+                Bootstrap
+              </a>,
+              &amp;
+              <a href="https://fontawesome.bootstrapcheatsheets.com/" target="_blank">
+                FontAwesome
+              </a>
+              <i class="fa fa-thumbs-up"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
   </div>
 
@@ -23,3 +47,10 @@ export default {
   name: 'App'
 }
 </script>
+
+<style type="text/css">
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+</style>
