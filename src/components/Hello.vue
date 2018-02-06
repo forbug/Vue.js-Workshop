@@ -49,8 +49,6 @@
           </div>
         </div>
 
-
-
       </div>
     </div>
 
@@ -99,7 +97,6 @@
 <!-- // // // // -->
 
 <script>
-
 import Form from './Form'
 
 export default {
